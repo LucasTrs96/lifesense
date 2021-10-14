@@ -9,32 +9,32 @@
 	<input type="hidden" name="acao" value="cadastrar">
 	<div class="form-group">
 		<label>C.N.P.J.</label>
-		<input type="text" id="cnpj_con" name="cnpj_con" value="cnpj_con" class="form-control" placeholder="Somente Números" maxlentgh="13" required>
+		<input type="text" id="cnpj_con" name="cnpj_con" class="form-control" placeholder="Somente Números" maxlentgh="13" required>
 	</div>
 
 	<div class="form-group">
 		<label>Razão Social</label>
-		<input type="text" id="raz_con" name="raz_con" value="raz_con" class="form-control" placeholder="Ex.: Consultório Lifa SENSE" required>
+		<input type="text" id="raz_con" name="raz_con" class="form-control" placeholder="Ex.: Consultório Life SENSE" required>
 	</div>
 
 	<div class="form-group">
 		<label>C.E.P.</label>
-		<input type="text" id="cep_con" name="cep_con" value="cep_con" class="form-control" placeholder="Somente Números" maxlentgh="11" required>
+		<input type="text" id="cep_con" name="cep_con" class="form-control" placeholder="Somente Números" maxlentgh="11" required>
 	</div>
 
 	<div class="form-group">
 		<label>Endereço</label>
-		<input type="text" id="end_con" name="end_con" value="end_con" class="form-control" placeholder="Ex.: Cidade, Bairro, Casa, Número, etc..." required>
+		<input type="text" id="end_con" name="end_con" class="form-control" placeholder="Ex.: Cidade, Bairro, Casa, Número, etc..." required>
 	</div>
 
 	<div class="form-group">
 		<label>Telefone</label>
-		<input type="text" id="tel_con" name="tel_con" value="tel_con" class="form-control" placeholder="DDD + 9" required>
+		<input type="text" id="tel_con" name="tel_con" class="form-control" placeholder="DDD + 9" required>
 	</div>
 
 	<div class="form-group">
 		<label>E-mail</label>
-		<input type="email" id="email_con" name="email_con" value="email_con" placeholder="Ex.: email@email.com" class="form-control" required>
+		<input type="email" id="email_con" name="email_con" placeholder="Ex.: email@email.com" class="form-control" required>
 	</div>
 
 	<div class="row">

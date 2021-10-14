@@ -21,7 +21,7 @@
             }
             print "</select>";
         } else {
-            print "<div class='alert alert-danger'>Não há nenhum Consultório cadastrada</div>";
+            print "<div class='alert alert-danger'>Não há nenhum Consultório cadastrado</div>";
         }
 
         ?>
@@ -54,47 +54,47 @@
 
     <div class="form-group">
         <label>C.P.F.</label>
-        <input type="text" id="cpf_med" name="cpf_med" value="cpf_med" class="form-control" placeholder="Somente Números" maxlength="11" required>
+        <input type="text" id="cpf_med" name="cpf_med" class="form-control" placeholder="Somente Números" maxlength="11" required>
     </div>
 
     <div class="form-group">
         <label>Nome do Médico</label>
-        <input type="text" id="nome_med" name="nome_med" value="nome_med" class="form-control" placeholder="Nome Completo" required>
+        <input type="text" id="nome_med" name="nome_med" class="form-control" placeholder="Nome Completo" required>
     </div>
 
     <div class="form-group">
         <label>Data de Nascimento</label>
-        <input type="date" id="nasc_med" value="nasc_med" name="nasc_med" class="form-control" required>
+        <input type="date" id="nasc_med" value="nasc_med" class="form-control" required>
     </div>
 
     <div class="form-group">
         <label>Nacionalidade</label>
-        <input type="text" id="nac_med" name="nac_med" value="nac_med" class="form-control" placeholder="Nacionalidade" required>
+        <input type="text" id="nac_med" name="nac_med" class="form-control" placeholder="Nacionalidade" required>
     </div>
 
     <div class="form-group">
         <label>Gênero</label>
-        <input type="text" id="gen_med" name="gen_med" value="gen_med" class="form-control" placeholder="Masculino, Feminino, Outros..." required>
+        <input type="text" id="gen_med" name="gen_med" class="form-control" placeholder="Masculino, Feminino, Outros..." required>
     </div>
 
     <div class="form-group">
         <label>Ocupação</label>
-        <input type="text" id="ocup_med" name="ocup_med" value="ocup_med" class="form-control" placeholder="Ocupação trabalhista" required>
+        <input type="text" id="ocup_med" name="ocup_med" class="form-control" placeholder="Ocupação trabalhista" required>
     </div>
 
     <div class="form-group">
         <label>Endereço</label>
-        <input type="text" id="end_med" name="end_med" value="end_med" class="form-control" placeholder="Cidade, Bairro, Rua, etc..." required>
+        <input type="text" id="end_med" name="end_med" class="form-control" placeholder="Cidade, Bairro, Rua, etc..." required>
     </div>
 
     <div class="form-group">
         <label>Telefone</label>
-        <input type="text" id="tel_med" name="tel_med" value="tel_med" class="form-control" placeholder="DDD + 9 ou telefone Fixo" required>
+        <input type="text" id="tel_med" name="tel_med" class="form-control" placeholder="DDD + 9 ou telefone Fixo" required>
     </div>
 
     <div class="form-group">
         <label>E-mail</label>
-        <input type="email" id="email_med" name="email_med" value="email_med" class="form-control" placeholder="E-mail" required>
+        <input type="email" id="email_med" name="email_med" class="form-control" placeholder="E-mail" required>
     </div>
 
     <div class="row">
