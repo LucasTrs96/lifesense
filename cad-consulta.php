@@ -44,7 +44,7 @@
             }
             print "</select>";
         } else {
-            print "<div class='alert alert-danger'>Não há nenhum Consultório cadastrada</div>";
+            print "<div class='alert alert-danger'>Não há nenhum Consultório cadastrado</div>";
         }
 
         ?>

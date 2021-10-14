@@ -20,7 +20,7 @@
             }
             print "</select>";
         } else {
-            print "<div class='alert alert-danger'>Não há nenhuma Consulta cadastrada</div>";
+            print "<div class='alert alert-danger'>Não há nenhuma Consulta cadastrado</div>";
         }
         ?>
     </div>
