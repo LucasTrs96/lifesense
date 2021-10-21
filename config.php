@@ -1,8 +1,8 @@
 <?php
     $bdServidor = 'localhost'; //Pode ser localhost
-    $bdUsuario = 'id17761744_root'; //Usuário criado no BD
-    $bdSenha = 'n0]iVmev\L~Sy^JV'; //Senha do BD
-    $bdBanco = 'id17761744_lifesense'; //Nome do BD dentro do Servidor
+    $bdUsuario = 'root'; //Usuário criado no BD
+    $bdSenha = 'admin'; //Senha do BD
+    $bdBanco = 'apmed'; //Nome do BD dentro do Servidor
 
     $conexao = mysqli_connect($bdServidor,$bdUsuario,$bdSenha,$bdBanco);
 

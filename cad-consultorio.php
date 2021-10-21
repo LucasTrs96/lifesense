@@ -9,7 +9,7 @@
 	<input type="hidden" name="acao" value="cadastrar">
 	<div class="form-group">
 		<label>C.N.P.J.</label>
-		<input type="text" id="cnpj_con" name="cnpj_con" class="form-control" placeholder="Somente Números" maxlentgh="13" required>
+		<input type="text" id="cnpj_con" name="cnpj_con" class="form-control" placeholder="Somente Números" maxlength="13" required>
 	</div>
 
 	<div class="form-group">
@@ -19,7 +19,7 @@
 
 	<div class="form-group">
 		<label>C.E.P.</label>
-		<input type="text" id="cep_con" name="cep_con" class="form-control" placeholder="Somente Números" maxlentgh="11" required>
+		<input type="text" id="cep_con" name="cep_con" class="form-control" placeholder="Somente Números" maxlength="11" required>
 	</div>
 
 	<div class="form-group">
